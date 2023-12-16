@@ -8,4 +8,8 @@ System and user configurations.
 
 The flake is setup for a single host for the time being.
 
-`sudo nixos-rebuild switch --flake github:yathxyz/puter#battlestation`
+```
+sudo nixos-rebuild switch --flake github:yathxyz/puter#battlestation`
+```
+
+
