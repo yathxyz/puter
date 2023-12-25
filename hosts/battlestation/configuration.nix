@@ -152,7 +152,6 @@
     perl
     ripgrep
     sqlite
-    msbuild
     wget
   ];
 
@@ -163,10 +162,6 @@
     XDG_STATE_HOME = "$HOME/.local/state";
 
     WORKDIR = "$HOME/work/";
-    #PATH = "$PATH:$HOME/.dotnet/tools";
-
-    DOTNET_ROOT = "${pkgs.dotnet-sdk_7}";
-    MONO_ROOT = "${pkgs.mono}";
   };
 
   fonts.packages = with pkgs; [
