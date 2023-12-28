@@ -140,6 +140,7 @@
     bc
     bison
     cmake
+    coreutils-full
     curl
     direnv
     texlive.combined.scheme-full
