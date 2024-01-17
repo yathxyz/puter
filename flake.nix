@@ -1,5 +1,5 @@
 {
-  description = "Config for \"puter\"; system and user configurations.";
+  description = "System and user configurations.";
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
 
@@ -16,7 +16,5 @@
         modules = [ ./hosts/battlestation/configuration.nix ];
       };
     };
-
-
   };
 }
