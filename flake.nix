@@ -1,13 +1,8 @@
 {
   description = "System and user configurations.";
   inputs = {
-    nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
-
-    home-manager = {
-      url = "github:nix-community/home-manager/master";
-      inputs.nixpkgs.follows = "nixpkgs";
-    };
-
+    nixpkgs.url = "github:NixOS/nixpkgs/nixos-23.11";
+    home-manager.url = "github:nix-community/home-manager/master";
   };
   outputs = { self, nixpkgs, ... }@inputs: {
     nixosConfigurations = {
