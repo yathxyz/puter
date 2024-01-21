@@ -1,3 +1,6 @@
+### Notice
+Everything is to be moved to the dotfiles repo instead.
+
 # Puter
 
 System and user configurations.
